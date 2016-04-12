@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657384FF1CA4896000297AAF /* HRStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657384FE1CA4896000297AAF /* HRStorage.swift */; };
+		657385011CA489F100297AAF /* HRDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657385001CA489F100297AAF /* HRDataPoint.swift */; };
+		657385031CA48E0100297AAF /* HRGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657385021CA48E0100297AAF /* HRGraphView.swift */; };
+		6580126D1CAC893C00EAED70 /* PlatformValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580126C1CAC893C00EAED70 /* PlatformValidator.swift */; };
+		6580126F1CAC8ACF00EAED70 /* DummyDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580126E1CAC8ACF00EAED70 /* DummyDataGenerator.swift */; };
+		65B7677A1CBC309C00D8D97D /* HRGraphLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B767791CBC309C00D8D97D /* HRGraphLine.swift */; };
 		65BD66EC1CA090430092ED1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BD66EB1CA090430092ED1F /* AppDelegate.swift */; };
 		65BD66EE1CA090430092ED1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BD66ED1CA090430092ED1F /* ViewController.swift */; };
 		65BD66F11CA090430092ED1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BD66EF1CA090430092ED1F /* Main.storyboard */; };
@@ -14,6 +20,8 @@
 		65BD66F61CA090430092ED1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BD66F51CA090430092ED1F /* Assets.xcassets */; };
 		65BD66F91CA090430092ED1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BD66F71CA090430092ED1F /* LaunchScreen.storyboard */; };
 		65BD67041CA090430092ED1F /* RunningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BD67031CA090430092ED1F /* RunningTests.swift */; };
+		65BD670F1CA090DA0092ED1F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BD670E1CA090DA0092ED1F /* Constants.swift */; };
+		65BD67121CA0940E0092ED1F /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BD67111CA0940E0092ED1F /* ConnectionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		657384FE1CA4896000297AAF /* HRStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HRStorage.swift; path = HeartRate/HRStorage.swift; sourceTree = "<group>"; };
+		657385001CA489F100297AAF /* HRDataPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HRDataPoint.swift; path = Utilities/HRDataPoint.swift; sourceTree = "<group>"; };
+		657385021CA48E0100297AAF /* HRGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HRGraphView.swift; path = HeartRate/HRGraphView.swift; sourceTree = "<group>"; };
+		6580126C1CAC893C00EAED70 /* PlatformValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlatformValidator.swift; path = Utilities/PlatformValidator.swift; sourceTree = "<group>"; };
+		6580126E1CAC8ACF00EAED70 /* DummyDataGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DummyDataGenerator.swift; path = Utilities/DummyDataGenerator.swift; sourceTree = "<group>"; };
+		65B767791CBC309C00D8D97D /* HRGraphLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HRGraphLine.swift; path = HeartRate/HRGraphLine.swift; sourceTree = "<group>"; };
 		65BD66E81CA090430092ED1F /* Running.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Running.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BD66EB1CA090430092ED1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65BD66ED1CA090430092ED1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +52,8 @@
 		65BD66FF1CA090430092ED1F /* RunningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BD67031CA090430092ED1F /* RunningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningTests.swift; sourceTree = "<group>"; };
 		65BD67051CA090430092ED1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65BD670E1CA090DA0092ED1F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utilities/Constants.swift; sourceTree = "<group>"; };
+		65BD67111CA0940E0092ED1F /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionManager.swift; path = Utilities/ConnectionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657384FD1CA4891A00297AAF /* HeartRate */ = {
+			isa = PBXGroup;
+			children = (
+				657384FE1CA4896000297AAF /* HRStorage.swift */,
+				657385001CA489F100297AAF /* HRDataPoint.swift */,
+				657385021CA48E0100297AAF /* HRGraphView.swift */,
+				65B767791CBC309C00D8D97D /* HRGraphLine.swift */,
+			);
+			name = HeartRate;
+			sourceTree = "<group>";
+		};
 		65BD66DF1CA090420092ED1F = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +106,8 @@
 		65BD66EA1CA090430092ED1F /* Running */ = {
 			isa = PBXGroup;
 			children = (
+				657384FD1CA4891A00297AAF /* HeartRate */,
+				65BD67101CA090EA0092ED1F /* Utilities */,
 				65BD66EB1CA090430092ED1F /* AppDelegate.swift */,
 				65BD66ED1CA090430092ED1F /* ViewController.swift */,
 				65BD66EF1CA090430092ED1F /* Main.storyboard */,
@@ -97,6 +126,17 @@
 				65BD67051CA090430092ED1F /* Info.plist */,
 			);
 			path = RunningTests;
+			sourceTree = "<group>";
+		};
+		65BD67101CA090EA0092ED1F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				65BD670E1CA090DA0092ED1F /* Constants.swift */,
+				65BD67111CA0940E0092ED1F /* ConnectionManager.swift */,
+				6580126C1CAC893C00EAED70 /* PlatformValidator.swift */,
+				6580126E1CAC8ACF00EAED70 /* DummyDataGenerator.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +189,7 @@
 				TargetAttributes = {
 					65BD66E71CA090420092ED1F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = E54GV3Q8CT;
 					};
 					65BD66FE1CA090430092ED1F = {
 						CreatedOnToolsVersion = 7.2;
@@ -200,9 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6580126D1CAC893C00EAED70 /* PlatformValidator.swift in Sources */,
+				65B7677A1CBC309C00D8D97D /* HRGraphLine.swift in Sources */,
+				657384FF1CA4896000297AAF /* HRStorage.swift in Sources */,
+				657385011CA489F100297AAF /* HRDataPoint.swift in Sources */,
+				65BD67121CA0940E0092ED1F /* ConnectionManager.swift in Sources */,
+				657385031CA48E0100297AAF /* HRGraphView.swift in Sources */,
 				65BD66EE1CA090430092ED1F /* ViewController.swift in Sources */,
 				65BD66F41CA090430092ED1F /* Running.xcdatamodeld in Sources */,
 				65BD66EC1CA090430092ED1F /* AppDelegate.swift in Sources */,
+				6580126F1CAC8ACF00EAED70 /* DummyDataGenerator.swift in Sources */,
+				65BD670F1CA090DA0092ED1F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,10 +378,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Running/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.Running;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.private;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -340,10 +392,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Running/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.Running;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.private;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -390,6 +445,7 @@
 				65BD670A1CA090430092ED1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65BD670B1CA090430092ED1F /* Build configuration list for PBXNativeTarget "RunningTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +454,7 @@
 				65BD670D1CA090430092ED1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
