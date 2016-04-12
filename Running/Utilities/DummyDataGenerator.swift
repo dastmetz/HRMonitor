@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+
+struct DummyDataGenerator{
+    
+    var delegate: GraphDrawingDelegate
+    var timeDummy = 0
+    
+    mutating func addPoint(){
+        let point = HRDataPoint(x: Int((arc4random_uniform(120) + 40)), y: timeDummy)
+        delegate.drawGraph(point)
+        delegate.updateLabel(String(point.HR_value))
+        timeDummy += 2
+    }
+}

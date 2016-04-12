@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Running.xcodeproj">
+      location = "self:/Users/daniel/Documents/Development/Running/HeartRateMonitor.xcodeproj">
    </FileRef>
 </Workspace>

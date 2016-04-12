@@ -11,10 +11,18 @@ import Foundation
 
 struct HRStorage{
     
-    static let store = HeartRateStore()
+    static var sharedInstance = HRStorage()
     
-    func addEntry(data: HRData){
+    var store = [HRDataPoint(x: 0, y: 0)]
     
+    mutating func addEntry(data: HRDataPoint){
+        store.append(data)
     }
+    
+    func getDataPoints()-> [HRDataPoint]{
+        return store
+    }
+    
+    
     
 }

@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+
+struct HRDataPoint{
+
+    var seconds: Int
+    var HR_value: Int
+    
+    init(x: Int, y: Int){
+        HR_value = x
+        seconds = y
+    }
+
+}

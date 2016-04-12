@@ -41,7 +41,7 @@
 		6580126C1CAC893C00EAED70 /* PlatformValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlatformValidator.swift; path = Utilities/PlatformValidator.swift; sourceTree = "<group>"; };
 		6580126E1CAC8ACF00EAED70 /* DummyDataGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DummyDataGenerator.swift; path = Utilities/DummyDataGenerator.swift; sourceTree = "<group>"; };
 		65B767791CBC309C00D8D97D /* HRGraphLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HRGraphLine.swift; path = HeartRate/HRGraphLine.swift; sourceTree = "<group>"; };
-		65BD66E81CA090430092ED1F /* Running.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Running.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BD66E81CA090430092ED1F /* HeartRateMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BD66EB1CA090430092ED1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65BD66ED1CA090430092ED1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65BD66F01CA090430092ED1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		65BD66F51CA090430092ED1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65BD66F81CA090430092ED1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65BD66FA1CA090430092ED1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65BD66FF1CA090430092ED1F /* RunningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BD66FF1CA090430092ED1F /* HeartRateMonitor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateMonitor.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BD67031CA090430092ED1F /* RunningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningTests.swift; sourceTree = "<group>"; };
 		65BD67051CA090430092ED1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65BD670E1CA090DA0092ED1F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utilities/Constants.swift; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 		65BD66E91CA090430092ED1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65BD66E81CA090430092ED1F /* Running.app */,
-				65BD66FF1CA090430092ED1F /* RunningTests.xctest */,
+				65BD66E81CA090430092ED1F /* HeartRateMonitor.app */,
+				65BD66FF1CA090430092ED1F /* HeartRateMonitor.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65BD66E71CA090420092ED1F /* Running */ = {
+		65BD66E71CA090420092ED1F /* HeartRateMonitor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65BD67081CA090430092ED1F /* Build configuration list for PBXNativeTarget "Running" */;
+			buildConfigurationList = 65BD67081CA090430092ED1F /* Build configuration list for PBXNativeTarget "HeartRateMonitor" */;
 			buildPhases = (
 				65BD66E41CA090420092ED1F /* Sources */,
 				65BD66E51CA090420092ED1F /* Frameworks */,
@@ -154,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = Running;
+			name = HeartRateMonitor;
 			productName = Running;
-			productReference = 65BD66E81CA090430092ED1F /* Running.app */;
+			productReference = 65BD66E81CA090430092ED1F /* HeartRateMonitor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65BD66FE1CA090430092ED1F /* RunningTests */ = {
+		65BD66FE1CA090430092ED1F /* HeartRateMonitorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65BD670B1CA090430092ED1F /* Build configuration list for PBXNativeTarget "RunningTests" */;
+			buildConfigurationList = 65BD670B1CA090430092ED1F /* Build configuration list for PBXNativeTarget "HeartRateMonitorTests" */;
 			buildPhases = (
 				65BD66FB1CA090430092ED1F /* Sources */,
 				65BD66FC1CA090430092ED1F /* Frameworks */,
@@ -172,9 +172,9 @@
 			dependencies = (
 				65BD67011CA090430092ED1F /* PBXTargetDependency */,
 			);
-			name = RunningTests;
+			name = HeartRateMonitorTests;
 			productName = RunningTests;
-			productReference = 65BD66FF1CA090430092ED1F /* RunningTests.xctest */;
+			productReference = 65BD66FF1CA090430092ED1F /* HeartRateMonitor.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65BD66E31CA090420092ED1F /* Build configuration list for PBXProject "Running" */;
+			buildConfigurationList = 65BD66E31CA090420092ED1F /* Build configuration list for PBXProject "HeartRateMonitor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -210,8 +210,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65BD66E71CA090420092ED1F /* Running */,
-				65BD66FE1CA090430092ED1F /* RunningTests */,
+				65BD66E71CA090420092ED1F /* HeartRateMonitor */,
+				65BD66FE1CA090430092ED1F /* HeartRateMonitorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		65BD67011CA090430092ED1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65BD66E71CA090420092ED1F /* Running */;
+			target = 65BD66E71CA090420092ED1F /* HeartRateMonitor */;
 			targetProxy = 65BD67001CA090430092ED1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -383,7 +383,7 @@
 				INFOPLIST_FILE = Running/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.private;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HeartRateMonitor;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -397,7 +397,7 @@
 				INFOPLIST_FILE = Running/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.private;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HeartRateMonitor;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -409,8 +409,8 @@
 				INFOPLIST_FILE = RunningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.RunningTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Running.app/Running";
+				PRODUCT_NAME = HeartRateMonitor;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateMonitor.app/HeartRateMonitor";
 			};
 			name = Debug;
 		};
@@ -421,15 +421,15 @@
 				INFOPLIST_FILE = RunningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.RunningTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Running.app/Running";
+				PRODUCT_NAME = HeartRateMonitor;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateMonitor.app/HeartRateMonitor";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65BD66E31CA090420092ED1F /* Build configuration list for PBXProject "Running" */ = {
+		65BD66E31CA090420092ED1F /* Build configuration list for PBXProject "HeartRateMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65BD67061CA090430092ED1F /* Debug */,
@@ -438,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65BD67081CA090430092ED1F /* Build configuration list for PBXNativeTarget "Running" */ = {
+		65BD67081CA090430092ED1F /* Build configuration list for PBXNativeTarget "HeartRateMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65BD67091CA090430092ED1F /* Debug */,
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65BD670B1CA090430092ED1F /* Build configuration list for PBXNativeTarget "RunningTests" */ = {
+		65BD670B1CA090430092ED1F /* Build configuration list for PBXNativeTarget "HeartRateMonitorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65BD670C1CA090430092ED1F /* Debug */,

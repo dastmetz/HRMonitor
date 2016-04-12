@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65BD66E71CA090420092ED1F"
-               BuildableName = "Running.app"
-               BlueprintName = "Running"
-               ReferencedContainer = "container:Running.xcodeproj">
+               BuildableName = "HeartRateMonitor.app"
+               BlueprintName = "HeartRateMonitor"
+               ReferencedContainer = "container:HeartRateMonitor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65BD66FE1CA090430092ED1F"
-               BuildableName = "RunningTests.xctest"
-               BlueprintName = "RunningTests"
-               ReferencedContainer = "container:Running.xcodeproj">
+               BuildableName = "HeartRateMonitor.xctest"
+               BlueprintName = "HeartRateMonitorTests"
+               ReferencedContainer = "container:HeartRateMonitor.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65BD66E71CA090420092ED1F"
-            BuildableName = "Running.app"
-            BlueprintName = "Running"
-            ReferencedContainer = "container:Running.xcodeproj">
+            BuildableName = "HeartRateMonitor.app"
+            BlueprintName = "HeartRateMonitor"
+            ReferencedContainer = "container:HeartRateMonitor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65BD66E71CA090420092ED1F"
-            BuildableName = "Running.app"
-            BlueprintName = "Running"
-            ReferencedContainer = "container:Running.xcodeproj">
+            BuildableName = "HeartRateMonitor.app"
+            BlueprintName = "HeartRateMonitor"
+            ReferencedContainer = "container:HeartRateMonitor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65BD66E71CA090420092ED1F"
-            BuildableName = "Running.app"
-            BlueprintName = "Running"
-            ReferencedContainer = "container:Running.xcodeproj">
+            BuildableName = "HeartRateMonitor.app"
+            BlueprintName = "HeartRateMonitor"
+            ReferencedContainer = "container:HeartRateMonitor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
