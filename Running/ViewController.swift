@@ -10,6 +10,7 @@ import UIKit
 
 protocol GraphDrawingDelegate{
     func updateLabel(value: String)
+    func updateProducerLabel(value: String)
     func drawGraph(point: HRDataPoint)
 }
 
@@ -17,6 +18,7 @@ class ViewController: UIViewController, GraphDrawingDelegate{
 
     @IBOutlet var heartRateLabel: UILabel!
     @IBOutlet var graphView: HRGraphView!
+    @IBOutlet var monitorLabel: UILabel!
     
     
     var manager: ConnectionManager?
@@ -46,6 +48,9 @@ class ViewController: UIViewController, GraphDrawingDelegate{
         heartRateLabel.text = value
     }
     
+    func updateProducerLabel(value: String) {
+        monitorLabel.text = value
+    }
     
     func drawGraph(point: HRDataPoint) {
         HRStorage.sharedInstance.addEntry(point)

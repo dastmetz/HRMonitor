@@ -128,6 +128,11 @@ class ConnectionManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
             getBodyLocation(characteristic)
         }
         
+        if characteristic.UUID == Constants.HR_ProducerID{
+            let name = getProducerName(characteristic)
+            delegate.updateProducerLabel(name)
+        }
+        
     }
     
     // MARK: Characteristics Helper
@@ -158,10 +163,14 @@ class ConnectionManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
     }
         
     
-    func getProducerName(characteristic: CBCharacteristic){
-        let name = String(data: characteristic.value!, encoding: NSUTF8StringEncoding)
-        print(name)
+    private func getProducerName(characteristic: CBCharacteristic) -> String{
+        if let name = String(data: characteristic.value!, encoding: NSUTF8StringEncoding){
+            return name
+        } else {
+            return "/"
+        }
     }
+    
     
     func getBodyLocation(characteristic: CBCharacteristic){
         if let locationBytes = characteristic.value{
