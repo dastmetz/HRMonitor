@@ -20,9 +20,9 @@ class ViewController: UIViewController, GraphDrawingDelegate{
     @IBOutlet var graphView: HRGraphView!
     @IBOutlet var monitorLabel: UILabel!
     
-    
     var manager: ConnectionManager?
     var dataGenerator: DummyDataGenerator?
+    var blurView: UIVisualEffectView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +33,23 @@ class ViewController: UIViewController, GraphDrawingDelegate{
             manager = ConnectionManager(delegate: self)
             let services = [Constants.HR_ServiceID, Constants.deviceInfo_ServiceID]
         }
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        setupBlur()
+    }
+    
+    
+    // blur graph view in demo mode
+    private func setupBlur(){
+        let blurEffect = UIBlurEffect(style: .Dark)
+        blurView = UIVisualEffectView(effect: blurEffect)
+        blurView!.frame = graphView.bounds
+        blurView!.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
+        blurView!.alpha = 0.6
+        
+        self.graphView.addSubview(blurView!)
+        blurView!.center = graphView.convertPoint(graphView.center, fromView: graphView.superview)
     }
 
     func accessGeneratorViaTimer(){
